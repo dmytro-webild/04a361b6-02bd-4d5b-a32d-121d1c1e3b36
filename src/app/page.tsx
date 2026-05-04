@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { MessageSquare, Mail, Phone, FileText } from 'lucide-react';
+import { MessageSquare, Mail, Phone, FileText, Globe } from 'lucide-react';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
@@ -63,6 +63,7 @@ export default function LandingPage() {
         { icon: MessageSquare, title: "SMS Automation", description: "Automated triggers for high-engagement text follow-ups." },
         { icon: Mail, title: "Email Sequences", description: "Personalized automated outreach for scale." },
         { icon: FileText, title: "Smart Forms", description: "Capture and qualify leads with dynamic AI intake." },
+        { icon: Globe, title: "Automated Websites", description: "Instantly generated web pages for lead capture." },
       ]}
     />
   </div>
@@ -112,7 +113,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       buttons={[
         { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
-        { text: "Speak with Expert", href: "tel:2817227202" },
+        { text: "View Our Services", href: "#features" },
       ]}
     />
   </div>
