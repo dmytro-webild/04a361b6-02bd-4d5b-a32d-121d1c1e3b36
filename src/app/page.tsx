@@ -30,7 +30,7 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "Services", id: "#features" },
+        { name: "Services", id: "/services" },
         { name: "Success", id: "#testimonials" },
         { name: "Contact", id: "#contact" },
       ]}
@@ -45,7 +45,7 @@ export default function LandingPage() {
       description="Deploy AI Phone Agents, SMS flows, and custom intelligent workflows for your business at light speed."
       buttons={[
         { text: "Get Free Consultation", href: "#contact" },
-        { text: "Our Services", href: "#features" },
+        { text: "Our Services", href: "/services" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png"
     />
@@ -122,8 +122,9 @@ export default function LandingPage() {
       <FooterBaseCard
       logoText="AI Kickstart"
       columns={[
-        { title: "Service", items: [{ label: "Consulting", href: "#contact" }, { label: "AI Agents", href: "#features" }] },
-        { title: "Payment", items: [{ label: "Stripe", href: "#" }, { label: "Zelle", href: "#" }] }
+        { title: "Service", items: [{ label: "Consulting", href: "#contact" }, { label: "AI Agents", href: "/services" }] },
+        { title: "Payment", items: [{ label: "Stripe", href: "#" }, { label: "Zelle", href: "#" }]
+      }
       ]}
     />
   </div>
