@@ -25,8 +25,9 @@ export const metadata: Metadata = {
 
 
 
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
+
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -38,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${publicSans.variable} antialiased`}>
+        <body className={`${raleway.variable} antialiased`}>
           
           {children}
           <script
