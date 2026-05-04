@@ -11,6 +11,7 @@ import { DM_Sans } from "next/font/google";
 import { Mulish } from "next/font/google";
 import { Poppins } from "next/font/google";
 import { Public_Sans } from "next/font/google";
+import { Figtree } from "next/font/google";
 
 
 
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
 
 
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+
+const figtree = Figtree({
+  variable: "--font-figtree",
   subsets: ["latin"],
 });
 
@@ -39,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${raleway.variable} antialiased`}>
+        <body className={`${figtree.variable} antialiased`}>
           
           {children}
           <script
