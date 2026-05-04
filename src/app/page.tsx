@@ -111,8 +111,8 @@ export default function LandingPage() {
       background={{ variant: "sparkles-gradient" }}
       useInvertedBackground={false}
       buttons={[
-        { text: "Email Us", href: "mailto:Aikickstart.intel@gmail.com" },
-        { text: "Call Now", href: "tel:2817227202" },
+        { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
+        { text: "Speak with Expert", href: "tel:2817227202" },
       ]}
     />
   </div>
