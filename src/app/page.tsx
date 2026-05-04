@@ -30,8 +30,8 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "Automations", id: "#features" },
-        { name: "Testimonials", id: "#testimonials" },
+        { name: "Services", id: "#features" },
+        { name: "Success", id: "#testimonials" },
         { name: "Contact", id: "#contact" },
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/uploaded-1777879078871-82kpjuik.png"
@@ -44,8 +44,8 @@ export default function LandingPage() {
       title="AI Kickstart: Newsroom Speed, Tech Precision"
       description="Deploy AI Phone Agents, SMS flows, and custom intelligent workflows for your business at light speed."
       buttons={[
-        { text: "Book Consultation", href: "#contact" },
-        { text: "View Payments", href: "#footer" },
+        { text: "Get Free Consultation", href: "#contact" },
+        { text: "Our Services", href: "#features" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png"
     />
@@ -53,31 +53,31 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureHoverPattern
-      title="Automation Selection"
-      description="Select your specialized AI agent to optimize your operations."
+      title="AI Infrastructure"
+      description="Professional-grade automation tools for modern enterprises."
       textboxLayout="split"
       useInvertedBackground={false}
       animationType="slide-up"
       features={[
-        { icon: Phone, title: "AI Phone Agent", description: "Intelligent 24/7 inbound/outbound voice responses." },
-        { icon: MessageSquare, title: "SMS Automation", description: "Automated triggers for high-engagement text follow-ups." },
-        { icon: Mail, title: "Email Sequences", description: "Personalized automated outreach for scale." },
-        { icon: FileText, title: "Smart Forms", description: "Capture and qualify leads with dynamic AI intake." },
-        { icon: Globe, title: "Automated Websites", description: "Instantly generated web pages for lead capture." },
+        { icon: Phone, title: "AI Phone Agents", description: "Voice-enabled intelligent response systems." },
+        { icon: MessageSquare, title: "SMS Automation", description: "Trigger-based high-conversion outreach." },
+        { icon: Mail, title: "Email Sequences", description: "Personalized nurture streams at scale." },
+        { icon: FileText, title: "Smart Forms", description: "Automated lead qualification and data intake." },
+        { icon: Globe, title: "Websites", description: "Custom AI-generated pages for landing traffic." },
       ]}
     />
   </div>
 
   <div id="metrics" data-section="metrics">
       <MetricCardEleven
-      title="Operational Velocity"
-      description="Performance data for AI-augmented businesses."
+      title="Impact Analytics"
+      description="Quantifiable growth through intelligent systems."
       textboxLayout="split"
       useInvertedBackground={false}
       animationType="blur-reveal"
       metrics={[
         { id: "1", value: "10x", title: "Throughput", description: "Process tasks faster than ever.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png" },
-        { id: "2", value: "90%", title: "Manual Work", description: "Significant reduction in repetitive hours.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png" },
+        { id: "2", value: "90%", title: "Manual Work", description: "Automation that eliminates repetitive overhead.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png" },
       ]}
     />
   </div>
@@ -85,8 +85,7 @@ export default function LandingPage() {
   <div id="socialProof" data-section="socialProof">
       <SocialProofOne
       names={["AI Kickstart", "Tech Velocity", "Newsroom AI", "Automated Ops", "Intel Flow"]}
-      title="Powering Industry Leaders"
-      description="We serve high-growth enterprises."
+      title="Trusted by Modern Enterprises"
       textboxLayout="default"
       useInvertedBackground={false}
     />
@@ -94,8 +93,8 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardSix
-      title="Client Success Stories"
-      description="Hear from our partners."
+      title="Partner Success Stories"
+      description="See how leaders leverage AI Kickstart."
       textboxLayout="split"
       useInvertedBackground={false}
       animationType="slide-up"
@@ -108,12 +107,12 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactText
-      text="Get started today. Email us at Aikickstart.intel@gmail.com or call 281-722-7202. We accept Stripe and Zelle payments."
+      text="Ready to revolutionize your workflow? Let's build your AI-powered newsroom today."
       background={{ variant: "sparkles-gradient" }}
       useInvertedBackground={false}
       buttons={[
         { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
-        { text: "View Our Services", href: "#features" },
+        { text: "Email Us", href: "mailto:Aikickstart.intel@gmail.com" },
       ]}
     />
   </div>
@@ -122,7 +121,7 @@ export default function LandingPage() {
       <FooterBaseCard
       logoText="AI Kickstart"
       columns={[
-        { title: "Service", items: [{ label: "Consulting", href: "#contact" }] },
+        { title: "Service", items: [{ label: "Consulting", href: "#contact" }, { label: "AI Agents", href: "#features" }] },
         { title: "Payment", items: [{ label: "Stripe", href: "#" }, { label: "Zelle", href: "#" }] }
       ]}
     />
