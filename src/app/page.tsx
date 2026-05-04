@@ -58,6 +58,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       animationType="slide-up"
+      buttons={[
+        { text: "Start Automating Now", href: "#contact" }
+      ]}
       features={[
         { icon: Phone, title: "AI Phone Agents", description: "Voice-enabled intelligent response systems." },
         { icon: MessageSquare, title: "SMS Automation", description: "Trigger-based high-conversion outreach." },
@@ -99,6 +102,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       animationType="slide-up"
+      buttons={[
+        { text: "Join These Partners", href: "#contact" }
+      ]}
       testimonials={[
         { id: "1", name: "Sarah Jones", handle: "@sarahj", testimonial: "The AI phone agent integration transformed our sales pipeline immediately." },
         { id: "2", name: "Mike Thompson", handle: "@miket", testimonial: "Professional setup and immediate ROI. Highly recommended." },
@@ -113,7 +119,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       buttons={[
         { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
-        { text: "Email Us", href: "mailto:Aikickstart.intel@gmail.com" },
+        { text: "Book Strategy Call", href: "https://calendly.com/" },
       ]}
     />
   </div>
