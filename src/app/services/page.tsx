@@ -41,7 +41,7 @@ export default function ServicesPage() {
             description="Our end-to-end AI deployment services are designed for operational excellence and high-velocity growth."
             background={{ variant: "sparkles-gradient" }}
             buttons={[{ text: "Get Started", href: "/#contact" }]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png?_wi=2"
           />
         </div>
 
@@ -54,12 +54,12 @@ export default function ServicesPage() {
             useInvertedBackground={false}
             features={[
               {
-                title: "Intelligent Communication",                description: "Deploy autonomous agents that handle your customer interactions with human-like precision.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png" },
+                title: "Intelligent Communication",                description: "Deploy autonomous agents that handle your customer interactions with human-like precision.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png?_wi=2" },
                 items: [{ icon: Phone, text: "Voice Agents" }, { icon: MessageSquare, text: "SMS Automation" }],
                 reverse: false
               },
               {
-                title: "Operational Efficiency",                description: "Streamline your backend with automated workflows that ensure consistency and reliability.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png" },
+                title: "Operational Efficiency",                description: "Streamline your backend with automated workflows that ensure consistency and reliability.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png?_wi=2" },
                 items: [{ icon: Mail, text: "Email Sequences" }, { icon: FileText, text: "Smart Forms" }, { icon: Globe, text: "AI Websites" }],
                 reverse: true
               }

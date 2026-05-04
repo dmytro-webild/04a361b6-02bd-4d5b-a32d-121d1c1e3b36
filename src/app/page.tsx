@@ -47,7 +47,7 @@ export default function LandingPage() {
         { text: "Get Free Consultation", href: "#contact" },
         { text: "Our Services", href: "/services" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png?_wi=1"
     />
   </div>
 
@@ -79,8 +79,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       animationType="blur-reveal"
       metrics={[
-        { id: "1", value: "10x", title: "Throughput", description: "Process tasks faster than ever.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png" },
-        { id: "2", value: "90%", title: "Manual Work", description: "Automation that eliminates repetitive overhead.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png" },
+        { id: "1", value: "10x", title: "Throughput", description: "Process tasks faster than ever.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png?_wi=1" },
+        { id: "2", value: "90%", title: "Manual Work", description: "Automation that eliminates repetitive overhead.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879205429-9528bbe5.png?_wi=1" },
       ]}
     />
   </div>
