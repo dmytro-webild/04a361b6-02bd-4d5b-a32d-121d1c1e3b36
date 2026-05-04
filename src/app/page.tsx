@@ -2,11 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { Zap, MessageSquare, Mail, FileText, Phone, CreditCard } from 'lucide-react';
+import { MessageSquare, Mail, Phone, FileText } from 'lucide-react';
 import ContactText from '@/components/sections/contact/ContactText';
-import FaqBase from '@/components/sections/faq/FaqBase';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -73,6 +71,8 @@ export default function LandingPage() {
       <MetricCardEleven
       title="Operational Velocity"
       description="Performance data for AI-augmented businesses."
+      textboxLayout="split"
+      useInvertedBackground={false}
       animationType="blur-reveal"
       metrics={[
         { id: "1", value: "10x", title: "Throughput", description: "Process tasks faster than ever.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/stylized-3d-floating-bubble-icon-represe-1777879188215-c9f6e9e4.png" },
@@ -86,6 +86,8 @@ export default function LandingPage() {
       names={["AI Kickstart", "Tech Velocity", "Newsroom AI", "Automated Ops", "Intel Flow"]}
       title="Powering Industry Leaders"
       description="We serve high-growth enterprises."
+      textboxLayout="default"
+      useInvertedBackground={false}
     />
   </div>
 
@@ -94,6 +96,7 @@ export default function LandingPage() {
       title="Client Success Stories"
       description="Hear from our partners."
       textboxLayout="split"
+      useInvertedBackground={false}
       animationType="slide-up"
       testimonials={[
         { id: "1", name: "Sarah Jones", handle: "@sarahj", testimonial: "The AI phone agent integration transformed our sales pipeline immediately." },
@@ -106,6 +109,7 @@ export default function LandingPage() {
       <ContactText
       text="Get started today. Email us at Aikickstart.intel@gmail.com or call 281-722-7202. We accept Stripe and Zelle payments."
       background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={false}
       buttons={[
         { text: "Email Us", href: "mailto:Aikickstart.intel@gmail.com" },
         { text: "Call Now", href: "tel:2817227202" },
