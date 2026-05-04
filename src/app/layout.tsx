@@ -9,6 +9,7 @@ import { Raleway } from "next/font/google";
 import { Manrope } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { Mulish } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 
 
@@ -21,13 +22,11 @@ export const metadata: Metadata = {
 
 
 
-const mulish = Mulish({
-  variable: "--font-mulish",
+
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-});
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({
@@ -38,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${mulish.variable} ${inter.variable} antialiased`}>
+        <body className={`${poppins.variable} antialiased`}>
           
           {children}
           <script
