@@ -86,6 +86,7 @@ export default function LandingPage() {
       <SocialProofOne
       names={["AI Kickstart", "Tech Velocity", "Newsroom AI", "Automated Ops", "Intel Flow"]}
       title="Trusted by Modern Enterprises"
+      description="Collaborating with top-tier innovators globally."
       textboxLayout="default"
       useInvertedBackground={false}
     />
