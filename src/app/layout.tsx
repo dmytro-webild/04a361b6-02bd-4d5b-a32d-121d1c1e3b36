@@ -8,6 +8,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Raleway } from "next/font/google";
 import { Manrope } from "next/font/google";
 import { DM_Sans } from "next/font/google";
+import { Mulish } from "next/font/google";
 
 
 
@@ -19,8 +20,9 @@ export const metadata: Metadata = {
 
 
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+
+const mulish = Mulish({
+  variable: "--font-mulish",
   subsets: ["latin"],
 });
 const inter = Inter({
@@ -36,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
+        <body className={`${mulish.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
