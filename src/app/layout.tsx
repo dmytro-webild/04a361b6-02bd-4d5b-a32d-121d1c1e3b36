@@ -10,6 +10,7 @@ import { Manrope } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { Mulish } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { Public_Sans } from "next/font/google";
 
 
 
@@ -23,10 +24,10 @@ export const metadata: Metadata = {
 
 
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+
+const publicSans = Public_Sans({
+  variable: "--font-public-sans",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({
@@ -37,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${poppins.variable} antialiased`}>
+        <body className={`${publicSans.variable} antialiased`}>
           
           {children}
           <script
