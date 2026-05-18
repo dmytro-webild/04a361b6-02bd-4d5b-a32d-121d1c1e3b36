@@ -17,8 +17,8 @@ import { Libre_Baskerville } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'AI Kickstart | Business Automation Experts',
-  description: 'Transform your business with intelligent AI automation solutions. Book your consulting call now.',
+  title: "AI Kickstart | Business Automation Experts",
+  description: "Transform your business with intelligent AI automation solutions. Book your consulting call now.",
 };
 
 
