@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import { MessageSquare, Mail, Phone, FileText, Globe } from 'lucide-react';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import HeroBrandCarousel from '@/components/sections/hero/HeroBrandCarousel';
+import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
@@ -34,20 +34,19 @@ export default function LandingPage() {
         { name: "Success", id: "#testimonials" },
         { name: "Contact", id: "#contact" },
       ]}
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/uploaded-1777879078871-82kpjuik.png"
       brandName="AI Kickstart"
     />
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBrandCarousel
+      <HeroBillboardScroll
         title="AI Kickstart: Newsroom Speed, Tech Precision"
         description="Deploy AI Phone Agents, SMS flows, and custom intelligent workflows for your business at light speed."
+        background={{ variant: "sparkles-gradient" }}
         buttons={[
           { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
           { text: "Book Strategy Call", onClick: () => window.location.href = "tel:2817227202" },
         ]}
-        brandNames={["AI Kickstart", "Tech Velocity", "Newsroom AI", "Automated Ops", "Intel Flow"]}
         imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png?_wi=1"
       />
   </div>
