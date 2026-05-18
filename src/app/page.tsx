@@ -47,7 +47,7 @@ export default function LandingPage() {
           { text: "Get Free Consultation", href: "mailto:Aikickstart.intel@gmail.com" },
           { text: "Book Strategy Call", onClick: () => window.location.href = "tel:2817227202" },
         ]}
-        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/dark-futuristic-digital-newsroom-backgro-1777879099486-2bbe22f9.png?_wi=1"
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C9gXvKiqeUxpYZSYQSPOgJxRHe/uploaded-1779065768589-mb0hauyj.png"
       />
   </div>
 
